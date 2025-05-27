@@ -1,0 +1,12 @@
+from django.shortcuts import render
+from django.http import HttpResponse
+
+
+def home(request):
+    return HttpResponse('Home')
+
+def sobre(request):
+    return HttpResponse('Sobre')
+
+def receita(request):
+    return HttpResponse('Receitas')
