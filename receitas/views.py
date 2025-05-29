@@ -3,10 +3,5 @@ from django.http import HttpResponse
 
 
 def home(request):
-    return HttpResponse('Home')
+    return render(request,'receitas/pages/home.html')
 
-def sobre(request):
-    return HttpResponse('Sobre')
-
-def receita(request):
-    return HttpResponse('Receitas')
